@@ -1,69 +1,164 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio/)
+# Django Student Management System (beta)
+This is a Simple Student Management System Developed for Educational Purpose using Python (Django).
+Feel free to make changes based on your requirements.
 
-[Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+[Project Demo on YouTube](https://www.youtube.com/watch?v=kArCR96m7uo "Django Student Management System Demo")
 
-## Preview
+I've created this project while learnging Django and followed tutorial series from **SuperCoders**
 
-[![Stylish Portfolio Preview](https://assets.startbootstrap.com/img/screenshots/themes/stylish-portfolio.png)](https://startbootstrap.github.io/startbootstrap-stylish-portfolio/)
+And if you like this project then ADD a STAR ⭐️  to this project 👆
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-stylish-portfolio/)**
+## Features of this Project
 
-## Status
+### A. Admin Users Can
+1. See Overall Summary Charts of Stuudents Performance, Staffs Perfomrances, Courses, Subjects, Leave, etc.
+2. Manage Staffs (Add, Update and Delete)
+3. Manage Students (Add, Update and Delete)
+4. Manage Course (Add, Update and Delete)
+5. Manage Subjects (Add, Update and Delete)
+6. Manage Sessions (Add, Update and Delete)
+7. View Student Attendance
+8. Review and Reply Student/Staff Feedback
+9. Review (Approve/Reject) Student/Staff Leave
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-stylish-portfolio/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-stylish-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-stylish-portfolio)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-stylish-portfolio.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-stylish-portfolio)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-stylish-portfolio?type=dev)
+### B. Staff/Teachers Can
+1. See the Overall Summary Charts related to their students, their subjects, leave status, etc.
+2. Take/Update Students Attendance
+3. Add/Update Result
+4. Apply for Leave
+5. Send Feedback to HOD
 
-## Download and Installation
+### C. Students Can
+1. See the Overall Summary Charts related to their attendance, their subjects, leave status, etc.
+2. View Attendance
+3. View Result
+4. Apply for Leave
+5. Send Feedback to HOD
 
-To begin using this template, choose one of the following options to get started:
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/stylish-portfolio/)
-* Install via npm: `npm i startbootstrap-stylish-portfolio`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-stylish-portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-stylish-portfolio)
+## Support Developer
+1. Subscribe & Share my YouTube Channel - https://bit.ly/vijay-thapa-online-courses
+2. Add a Star 🌟  to this 👆 Repository
 
-## Usage
 
-### Basic Usage
+## Donate
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+**[PayPal](https://bit.ly/support-vijay-thapa)**
 
-### Advanced Usage
+**[Buy me a Coffee  ☕️](https://www.buymeacoffee.com/vijaythapa)**
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+**Donate by wire transfer:** E-Mail at *donate@vijaythapa.com* for wire transfer details. 
 
-#### Gulp Tasks
 
-* `gulp` the default task that builds everything
-* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-* `gulp js` minifies the themes JS file
-* `gulp vendor` copies dependencies from node_modules to the vendor directory
+## How to Install and Run this project?
 
-You must have npm installed globally in order to use this build environment.
+### Pre-Requisites:
+1. Install Git Version Control
+[ https://git-scm.com/ ]
 
-## Bugs and Issues
+2. Install Python Latest Version
+[ https://www.python.org/downloads/ ]
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/stylish-portfolio/).
+3. Install Pip (Package Manager)
+[ https://pip.pypa.io/en/stable/installing/ ]
 
-## About
+*Alternative to Pip is Homebrew*
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+### Installation
+**1. Create a Folder where you want to save the project**
 
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
+**2. Create a Virtual Environment and Activate**
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+Install Virtual Environment First
+```
+$  pip install virtualenv
+```
 
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
+Create Virtual Environment
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+For Windows
+```
+$  python -m venv venv
+```
+For Mac
+```
+$  python3 -m venv venv
+```
 
-## Copyright and License
+Activate Virtual Environment
 
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
+For Windows
+```
+$  source venv/scripts/activate
+```
+
+For Mac
+```
+$  source venv/bin/activate
+```
+
+**3. Clone this project**
+```
+$  git clone https://github.com/vijaythapa333/django-student-management-system.git
+```
+
+Then, Enter the project
+```
+$  cd django-student-management-system
+```
+
+**4. Install Requirements from 'requirements.txt'**
+```python
+$  pip install -r requirements.txt
+```
+
+**5. Add the hosts**
+
+- Got to settings.py file 
+- Then, On allowed hosts, Add [‘*’]. 
+```python
+ALLOWED_HOSTS = ['*']
+```
+*No need to change on Mac.*
+
+
+**6. Now Run Server**
+
+Command for PC:
+```python
+$ python manage.py runserver
+```
+
+Command for Mac:
+```python
+$ python3 manage.py runserver
+```
+
+**7. Login Credentials**
+
+Create Super User (HOD)
+```
+$  python manage.py createsuperuser
+```
+Then Add Email, Username and Password
+
+**or Use Default Credentials**
+
+*For HOD /SuperAdmin*
+Email: admin@gmail.com
+Password: admin
+
+*For Staff*
+Email: staff@gmail.com
+Password: staff
+
+*For Student*
+Email: student@gmail.com
+Password: student
+
+
+
+## For Sponsor or Projects Enquiry
+1. Email - hi@vijaythapa.com
+2. LinkedIn - [vijaythapa](https://www.linkedin.com/in/vijaythapa "Vijay Thapa on LinkedIn")
+
